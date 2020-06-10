@@ -25,36 +25,7 @@
 
         <div class="container py-2 px-3">
           <div class="row pl-4  " id="send-message">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-              Create Message
-            </button>
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Create Message</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <form id="message-form">
-                      <div class="form-group">
-                        <label for="#stud_no" class="text-dark pl-2">Username/Student Number  </label>
-                        <input type="text" name="" id="senderUserId" value="<?=$uid?>" readonly hidden>
-                        <input type="text" name="" id="receiverUserId" class="form-control" value="" placeholder="Enter Username / Student Number">
-                      </div>
-                      <div class="form-group">
-                        <label for="#messageContent" class="text-dark pl-2">Message  </label>
-                        <textarea class="form-control" id="messageContent" rows="3" placeholder="Type your Message here..."></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary float-right" name="button">Send</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </div>
         <div class="mt-5 row justify-content-center rounded-lg overflow-hidden ">
           <!-- Users box-->
